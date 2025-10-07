@@ -12,10 +12,10 @@
           </div>
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-1">
-              <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
-              <x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link>
-              <x-nav-link href="/posts" :active="request()->is('posts')">Posts</x-nav-link>
-              <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
+              <x-mynav href="/" :active="request()->is('/')">Home</x-mynav>
+              <x-mynav href="/about" :active="request()->is('about')">About</x-mynav>
+              <x-mynav href="/posts" :active="request()->is('posts')">Posts</x-mynav>
+              <x-mynav href="/contact" :active="request()->is('contact')">Contact</x-mynav>
             </div>
           </div>
         </div>
